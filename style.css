@@ -1,0 +1,86 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightsalmon;
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#textbox {
+    width: 250px;
+    height: 35px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+
+}
+
+.flex-container div{
+    margin: center ;
+    padding: 10px;
+
+}
+
+.button_class{
+    border-radius: 8px;
+    width:125px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    font-family: cursive;
+    font-display: bold; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* margin: auto; */
+
+}
+
+#bksp{
+    width: 75px;
+    margin-top: 25px;
+}
+
+#clear{
+    width: 75px;
+    margin-top: 25px;
+    
+}
+
+#result{
+    width: 415px;
+    
+
+}
+
+h1 {
+    font-family: cursive;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.button_class :hover{
+    background-color: gray;
+    color: black;
+}
+
+body{
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+    0% {background-color: rgb(229, 236, 236);}
+    25%{background-color:rgb(151, 195, 202);}
+    50%{background-color:rgb(181, 175, 182);}
+    75%{background-color:rgb(210, 197, 216);}
+    100% {background-color: rgb(241, 175, 182);}
+}

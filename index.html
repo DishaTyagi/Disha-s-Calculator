@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Flex</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color:rgb(121, 175, 182);">
+    
+    <center>
+
+        <h1>Disha's Calculator</h1>
+
+        <div class="flex-container">
+
+            <input type="text" id="textbox">
+            <div><button class="button_class" id="bksp" onclick="backspace()">Bksp</button></div>
+            <div><button class="button_class" id="clear" onclick="clr()">C</button></div>
+
+            <div><button class="button_class" onclick="display('7')">7</button></div>
+            <div><button class="button_class" onclick="display('8')">8</button></div>
+            <div><button class="button_class" onclick="display('9')">9</button></div>
+            
+            <div><button class="button_class" onclick="display('4')">4</button></div>
+            <div><button class="button_class" onclick="display('5')">5</button></div>
+            <div><button class="button_class" onclick="display('6')">6</button></div>
+
+            <div><button class="button_class" onclick="display('1')">1</button></div>
+            <div><button class="button_class" onclick="display('2')">2</button></div>
+            <div><button class="button_class" onclick="display('3')">3</button></div>
+
+            <div><button class="button_class" onclick="display('0')">0</button></div>
+            <div><button class="button_class" onclick="display('.')">.</button></div>
+            <div><button class="button_class" onclick="display('+')">+</button></div>
+
+            <div><button class="button_class" onclick="display('-')">-</button></div>
+            <div><button class="button_class" onclick="display('*')">*</button></div>
+            <div><button class="button_class" onclick="display('/')">/</button></div>
+            <div><button class="button_class" id="result" onclick="res()">=</button></div>
+
+        </div>
+
+    </center>   
+
+</body>
+</html>
