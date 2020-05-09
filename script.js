@@ -18,6 +18,8 @@ window.onload=function(){
     }
 
     backspace= function(){
+    // var lastchar= textbox.value[textbox.value.length - 1];
+    // textbox.value-= lastchar;        
     textbox.value= textbox.value.slice(0, textbox.value.length - 1);
     }
 
